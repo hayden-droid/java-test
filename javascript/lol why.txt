@@ -1,0 +1,13 @@
+
+image replacer lol
+
+Array.prototype.slice.call(document.querySelectorAll('img')).map(function(el){el.src = 'https://th.bing.com/th/id/OIP.cy_lApFgmW2P0DxJOB7MmQHaGz?w=198&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7';});
+
+Fake Aw Snap!
+
+setTimeout(function(){$('body').removeAttr('style').html('<img src="https://image.ibb.co/byWcEv/rtaImage.jpg">').css('text-align','center').css('margin','125px');},2500);
+
+
+Image Freak
+
+javascript:R=0; x1=.1; y1=.05; x2=.25; y2=.24; x3=1.6; y3=.24; x4=300; y4=200; x5=300; y5=200; DI=document.getElementsByTagName("img"); DIL=DI.length; function A(){for(i=0; i-DIL; i++){DIS=DI[ i ].style; DIS.position='absolute'; DIS.left=(Math.sin(R*x1+i*x2+x3)*x4+x5)+"px"; DIS.top=(Math.cos(R*y1+i*y2+y3)*y4+y5)+"px"}R++}setInterval('A()',5); void(0);
